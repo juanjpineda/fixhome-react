@@ -122,3 +122,38 @@ h1.titulo { color: var(--azul); font-weight: 700; }
   margin-top: 3rem;
   font-size: .9rem;
 }
+
+/* ===== Formularios y tablas ===== */
+.tarjeta-form,
+.tarjeta-tabla {
+  background: #fff;
+  border-radius: 16px;
+  padding: 1.8rem;
+  box-shadow: 0 8px 30px rgba(15, 42, 71, .08);
+}
+.tarjeta-form h4,
+.tarjeta-tabla h4 { color: var(--azul); font-weight: 700; }
+.form-label { font-weight: 600; color: var(--azul); font-size: .9rem; }
+.input-group-text { background: #eef3fa; color: var(--azul-medio); }
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--azul-medio);
+  box-shadow: 0 0 0 .2rem rgba(30, 90, 168, .15);
+}
+.buscador-tabla { max-width: 220px; }
+
+.tarjeta-tabla thead th { background: var(--azul); color: #fff; border: none; white-space: nowrap; }
+.badge-tipo { padding: .35rem .8rem; border-radius: 20px; font-size: .8rem; font-weight: 600; }
+.tipo-cliente { background: #e0f2fe; color: #0369a1; }
+.tipo-tecnico { background: #ffedd5; color: #c2410c; }
+.tipo-administrador { background: #ede9fe; color: #6d28d9; }
+
+/* ===== Estados vacíos ===== */
+.vacio {
+  text-align: center;
+  border: 2px dashed #cfd9e6;
+  border-radius: 16px;
+  padding: 2.5rem 1rem;
+  color: #6b7280;
+}
+.vacio i { font-size: 2.5rem; color: var(--azul-medio); display: block; margin-bottom: .5rem; }
