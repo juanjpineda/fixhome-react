@@ -157,3 +157,6 @@ h1.titulo { color: var(--azul); font-weight: 700; }
   color: #6b7280;
 }
 .vacio i { font-size: 2.5rem; color: var(--azul-medio); display: block; margin-bottom: .5rem; }
+
+/* ===== Servicios ===== */
+.precio { font-weight: 600; color: #15803d; white-space: nowrap; }
